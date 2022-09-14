@@ -1,0 +1,114 @@
+html {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: hsl(60, 59%, 80%)
+}
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+  }  
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 2rem;
+}
+
+figcaption {
+    margin-top: 1rem;
+}
+
+/* BANNER */
+banner h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+banner ul {
+    margin-bottom: 3rem;
+}
+
+banner li {
+    display: inline;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-image: url(../resources/images/martin-david-_l6UHod-_e8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0;
+    font-size: 2rem;
+}
+
+.hero-section h3 {
+    font-weight: bold;
+    color: black;
+    background-color: hsl(60, 59%, 80%);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1rem;
+    font-style: italic;
+}
+
+/* PRODUCTS */
+.products {
+    margin-top: 4rem;
+}
+
+.products h2 {
+    margin-bottom: 2rem;
+}
+
+.products article {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.products img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.products img:hover {
+    border: 0.5rem solid white;
+}
+
+/* THE TEAM */
+.team {
+    margin-top: 4rem;
+}
+
+.team article {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.team img {
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+/* CONTACT US */
+.contact-us {
+    margin-top: 4rem;
+}
